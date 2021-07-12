@@ -145,6 +145,10 @@ hr {
   width: 100%;
   height: 120px;
 }
+.course_author{
+    size: 14px;
+    color: #ED6B4F;
+}
 .course_info {
   display: flex;
   align-items: center;
@@ -158,4 +162,21 @@ hr {
 }
 .fa-star.emptay {
   color: #aeaeae;
+}
+.course_duration{
+  display: flex;
+  border-color: white;
+  border-radius: 14.6913px;
+  padding: 5px;
+
+}
+.course_duration p{
+  margin-left: 5px;
+  color: #FF4A60;
+  font-weight: 600;
+  font-size: 14.6913px;
+
+}
+.fa-clock{
+  color: #FF4A60;
 }
