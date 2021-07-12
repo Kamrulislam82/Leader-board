@@ -1,0 +1,39 @@
+@media only screen and (max-width: 688px) {
+  .header {
+    width: 100%;
+  }
+  .menu_list ul a {
+    text-decoration: none;
+    color: white;
+    padding: 0 6px;
+  }
+  .main_img img {
+    margin-left: 0;
+  }
+  .container {
+    width: 100%;
+  }
+  .players {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+
+    justify-content: center;
+  }
+  .player{
+      flex-direction: column;
+  }
+
+  .blogs {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);}
+
+    ..all-course {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: space-between;
+
+    .course_banner img {
+            width: 100%;
+            height: 50px;}
+  }
