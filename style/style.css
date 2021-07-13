@@ -154,20 +154,24 @@ hr {
   align-items: center;
   justify-content: space-between;
 }
-.fa-sta {
+.fa-star{
   font-size: 12px;
+  color: #ffc014;  
 }
-.fa-star.failld {
-  color: #ffc014;
-}
-.fa-star.emptay {
+
+.emptay{
   color: #aeaeae;
 }
+
 .course_duration{
   display: flex;
   border-color: white;
   border-radius: 14.6913px;
   padding: 5px;
+  align-items: center;
+  background-color: #FFE4E8;
+  border-radius: 20px;
+  
 
 }
 .course_duration p{
